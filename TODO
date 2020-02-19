@@ -1,0 +1,9 @@
+# TODO
+- Aux functions:
+	- check python version in use
+
+- main functions:
+	- plot results akin to full_analysis
+
+# Known bugs
+- matplotlib crashes matlab under Linux

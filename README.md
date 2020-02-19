@@ -1,2 +1,2 @@
 # mrestimator_matlab
-MATLAB wrapper for the MR. Estimator toolbox.
+MATLAB wrapper for the [mrestimator python toolbox](https://github.com/Priesemann-Group/mrestimator). 
