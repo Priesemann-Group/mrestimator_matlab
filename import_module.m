@@ -1,4 +1,4 @@
-function import_module(location)
+function mre = import_module(location)
 %Imports the MR Estimator module from a folder
 
 %Fixes MKL bug on linux
@@ -9,5 +9,7 @@ end
 %Imports mrestimator as a module
 py_path = py.sys.path;
 py_path.insert(int64(1),location)
+
+mre = py.importlib.import_module('mrestimator');
 
 end
